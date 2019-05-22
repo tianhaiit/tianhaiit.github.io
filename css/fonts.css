@@ -1,0 +1,7 @@
+@font-face {
+	font-family: 'Blueprint';
+	src: url('fonts/PWScratchedfont.eot');
+	src: local('☺'), url('fonts/PWScratchedfont.woff') format('woff'), url('fonts/PWScratchedfont.ttf') format('truetype'), url('fonts/PWScratchedfont.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

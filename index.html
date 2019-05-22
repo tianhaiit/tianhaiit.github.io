@@ -1,0 +1,79 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		<link rel="stylesheet" href="css/fonts.css" media="screen" title="no title" charset="utf-8">
+		<link rel="stylesheet" href="css/las.thit.home.css" media="screen" title="no title" charset="utf-8">
+		<title>天海信息科技</title>
+	</head>
+	<body onload="load()">
+		<header>
+			<div class="bg"></div>
+			<img src="img/logo.svg" alt="Tianhai" class="thit-logo" style="opacity: 0;">
+			<h2 class="secondary-heading" style="opacity: 0;">天海信息科技</h2>
+			<a class="btn btn-primary" style="opacity: 0;" href="#about">了解我们</a>
+		</header>
+		<article id="about" style="opacity: 0;">
+			<h2>天海这个团队</h2>
+			<p>年轻的我们常常有一些疯狂的想法，并试着去实现。我们试着在开发与学业中寻找平衡，并且为我们的理想而坚持。</p>
+		</article>
+		<blockquote style="opacity: 0;">
+			We can we up.
+			<em>——Soha</em>
+		</blockquote>
+		<article class="reverse" id="profile" style="opacity: 0;">
+			<div class="profile-card make-column-l">
+				<h3 class="avatar-line"><img src="img/avatarSoha.png" alt="Soha King"><b>Soha</b></h3>
+				<em>创始人<!--公主Soha-->，前端是渣的后端攻城狮。</em>
+			</div>
+			<div class="profile-card make-column-r">
+				<h3 class="avatar-line"><img src="img/avatarCyy.png" alt="John Chen"><b>cyy</b></h3>
+				<em>可爱的小胖子。</em>
+			</div>
+			<div class="profile-card make-column-l">
+				<h3 class="avatar-line"><img src="img/avatarJason.png" alt="Jason Cooper"><b>Jason</b></h3>
+				<em>活跃于各大漏洞平台，爱吃杨桃。荣耀的黄金III。</em>
+			</div>
+			<div class="profile-card make-column-r">
+				<h3 class="avatar-line"><img src="img/avatarLightyear.png" alt="Lightyear"><b>lightyear</b></h3>
+				<em>不断学习怎么能把前端做得更好系列。</em>
+			</div>
+			<div class="profile-card make-column-l">
+				<h3 class="avatar-line"><img src="img/avatarChkb.png" alt="chkb"><b>chkb</b></h3>
+				<em>做点小设计。</em>
+			</div>
+			<div class="profile-card make-column-r">
+				<h3 class="avatar-line"><img src="img/avatarWilliam.png" alt="William Edward"><b>William</b></h3>
+				<em>立志当学霸+半OIer+Java程序猿，<del>喜欢没钱装土豪</del>。</em>
+			</div>
+		</article>
+		<footer style="opacity: 0;">
+			<p>Copyright 2013-2016 Tianhai Information Technology, 2008-2016 L&amp;S Team. All rights reserved.</p>
+		</footer>
+		<script charset="utf-8">
+			function load() {
+				setTimeout(function() {
+					document.getElementsByClassName('thit-logo')[0].style.opacity = 1;
+				}, 600);
+				setTimeout(function() {
+					document.getElementsByClassName('secondary-heading')[0].style.opacity = 1;
+				}, 1200);
+				setTimeout(function() {
+					document.getElementsByClassName('btn')[0].style.opacity = 1;
+				}, 1800);
+				setTimeout(function() {
+					document.getElementById('about').style.opacity = 1;
+				}, 2400);
+				setTimeout(function() {
+					document.getElementsByTagName('blockquote')[0].style.opacity = 1;
+				}, 3600);
+				setTimeout(function() {
+					document.getElementById('profile').style.opacity = 1;
+				}, 4000);
+				setTimeout(function() {
+					document.getElementsByTagName('footer')[0].style.opacity = 1;
+				}, 4800);
+			}
+		</script>
+	</body>
+</html>

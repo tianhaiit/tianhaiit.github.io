@@ -1,0 +1,138 @@
+* {
+	font-family: Roboto, "Segoe UI", "Myriad Set Pro", "Lucida Grande", "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", STHeiti, "Noto Sans CJK SC Light", "Source Han Sans CN Light", "Microsoft YaHei Light", "Microsoft YaHei", Segoe, Arial, sans-serif;
+	transition: 1.3s ease all;
+	color: #333;
+}
+html, body {
+	margin: 0;
+	padding: 0;
+}
+.bg {
+	display: block;
+	background: #2196F3;
+	height: 500px;
+	margin-bottom: -500px;
+}
+header {
+	color: #fff;
+	text-align: center;
+}
+.secondary-heading {
+	color: #fff;
+	font-weight: lighter;
+	font-size: 2em;
+}
+.btn {
+	display: inline-block;
+	border: 1px solid #fff;
+	border-radius: 3px;
+	padding: 1em;
+	margin: .3em;
+	text-decoration: none;
+	-webkit-transition: .3s all ease;
+	-moz-transition: .3s all ease;
+	-o-transition: .3s all ease;
+	transition: .3s all ease;
+}
+.btn:hover {
+	background: #ffffff;
+	color: #2196f3;
+}
+.thit-logo {
+	margin: 1em;
+	height: 230px;
+}
+header p {
+	padding: 1em;
+}
+a {
+	color: #fff;
+}
+article {
+	display: block;
+	padding: 1.5em;
+	margin: 0 1.5em;
+	background: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+}
+.reverse {
+	background: #2196f3;
+}
+.reverse * {
+	color: #fff;
+}
+.reverse:after {
+	clear: both;
+	content: "";
+	display: block;
+}
+article h2 {
+	font-weight: lighter;
+}
+blockquote {
+	font-weight: lighter;
+	margin: 1em;
+	text-align: center;
+	font-size: 2em;
+}
+blockquote em {
+	display: block;
+	font-size: 1.5rem;
+}
+.avatar-line {
+	font-size: 2em;
+	align-items: center;
+	margin-bottom: 0;
+}
+.avatar-line img {
+	height: 1.5em;
+	border-radius: 50%;
+}
+.avatar-line b {
+	font-weight: lighter;
+	margin: 0 .25em;
+}
+.profile-card {
+	margin: 1em;
+	width: 45%;
+}
+.make-column-l {
+	margin-right: auto;
+	float: left !important;
+}
+.make-column-r {
+	margin-left: auto;
+	float: right !important;
+}
+footer {
+	text-align: center;
+	font-size: smaller;
+}
+@media (min-width: 500px) {
+	article {
+		margin: 1.5em 4.5em;
+	}
+}
+@media (min-width: 900px) {
+	article {
+		margin: 1.5em 12em;
+	}
+}
+@media (max-width: 1000px) {
+	.profile-card{
+		width: 30%;
+	}
+}
+@media (max-width: 800px) {
+	.make-column-l {
+		margin: auto;
+		float: inherit;
+	}
+	.make-column-r {
+		margin: auto;
+		float: inherit;
+	}
+	.profile-card {
+		width: 100%;
+	}
+}
